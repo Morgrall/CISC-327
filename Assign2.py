@@ -107,6 +107,9 @@ def Deposit():
     else:
         print("Account doesn't exist")
         Deposit()
+
+def logout():
+    pass
 #TODO
 def Withdraw():
     global Accounts
